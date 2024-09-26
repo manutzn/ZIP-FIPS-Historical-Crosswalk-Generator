@@ -22,26 +22,7 @@ To use the HUD USPS ZIP Code Crosswalk Files API with this repository, you'll ne
    - Navigate to the API section or your Account Dashboard.
    - Click on "Create New Token" to generate a new access token.
 
-4. Use the Access Token in API Calls:
-   - Include your access token in the Authorization header of your API requests using the Bearer scheme.
-   - Example of how to include the token in your HTTP request headers:
-
-     Authorization: Bearer YOUR_ACCESS_TOKEN
-
-   - Replace YOUR_ACCESS_TOKEN with the actual token you obtained.
-
-5. Update Your Environment Variables:
-   - Do not hardcode your access token into your scripts for security reasons.
-   - Store it securely as an environment variable in your development environment.
-   - In R, you can add the following line to your .Renviron file:
-
-     HUD_API_KEY=YOUR_ACCESS_TOKEN
-
-   - Retrieve it in your script using:
-
-     key <- Sys.getenv("HUD_API_KEY")
-
-6. Proceed with API Calls:
+4. Proceed with API Calls:
    - With the access token securely stored and retrieved in your script, you can now make authenticated API calls as demonstrated in the code examples within this repository.
 
 Note: Keep your access token confidential. Do not share it publicly or commit it to version control systems like GitHub.
