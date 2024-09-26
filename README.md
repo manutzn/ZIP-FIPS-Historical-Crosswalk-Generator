@@ -42,7 +42,7 @@ These files contain the ZIP-FIPS crosswalk data with the following variables:
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **year**      | The year corresponding to the data.                                                                                                              |
 | **quarter**   | The quarter of the year (1 to 4).                                                                                                                |
-| **zipcode**   | 5-digit USPS ZIP code.                                                                                                                           |
+| **zi_pcode**  | 5-digit USPS ZIP code.                                                                                                                           |
 | **fips_code** | 5-digit unique 2000 or 2010 Census county GEOID, consisting of state FIPS code plus county FIPS code.                                             |
 | **res_ratio** | The ratio of residential addresses in the ZIP–County part to the total number of residential addresses in the entire ZIP.                         |
 | **bus_ratio** | The ratio of business addresses in the ZIP–County part to the total number of business addresses in the entire ZIP.                               |
