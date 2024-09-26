@@ -51,7 +51,7 @@ These files contain the ZIP-FIPS crosswalk data with the following variables:
 
 ## Author
 
-Manu Garcia (2024)
+Manu García (2024)
 
 ## License
 
