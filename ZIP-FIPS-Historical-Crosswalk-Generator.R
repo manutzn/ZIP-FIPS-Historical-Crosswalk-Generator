@@ -128,14 +128,8 @@ if (length(data_list) > 0) {
   
   # Rename columns based on type
   colnames(data_combined) <- c(
-    "input", "crosswalk_type", "zipcode", "fips_code",
-    "res_ratio", "bus_ratio", "oth_ratio", "tot_ratio",
-    "year", "quarter"
-  )
-  
-  # Reorder columns for consistency
-  data_combined <- data_combined %>%
-    select(year, quarter, everything())
+    "year", "quarter", "input", "crosswalk_type", "zip_code", "fips_code", 
+    "res_ratio", "bus_ratio", "oth_ratio", "tot_ratio")
   
   # Convert to data.table for efficient processing
   setDT(data_combined)
