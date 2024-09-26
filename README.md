@@ -2,7 +2,9 @@
 
 This repository provides code for constructing a historical, quarterly dataset that systematically maps USPS ZIP codes to their corresponding FIPS codes. By utilizing data from the HUD USPS ZIP Code Crosswalk Files API, the code establishes a consistent and structured relationship between these geographical identifiers across different time periods. This tool is essential for precise spatial linkage in empirical research and policy analysis, enabling scholars and analysts to integrate and align datasets that employ varying geographical coding schemes over time. By ensuring accurate and reliable correspondence between ZIP codes and FIPS codes historically, it enhances the robustness and validity of analyses that depend on consistent geographical identifiers.
 
-Getting an Access Token
+
+# Getting Started
+## Getting an Access Token
 
 To use the HUD USPS ZIP Code Crosswalk Files API with this repository, you'll need to obtain an access token. Follow these steps to create an account and get your access token:
 
