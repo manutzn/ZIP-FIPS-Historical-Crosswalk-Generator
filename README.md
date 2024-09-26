@@ -48,3 +48,11 @@ These files contain the ZIP-FIPS crosswalk data with the following variables:
 | **bus_ratio** | The ratio of business addresses in the ZIP–County part to the total number of business addresses in the entire ZIP.                               |
 | **oth_ratio** | The ratio of other addresses in the ZIP–County part to the total number of other addresses in the entire ZIP.                                     |
 | **tot_ratio** | The ratio of all addresses in the ZIP–County part to the total number of all types of addresses in the entire ZIP.                                |
+
+## Author
+
+Manu Garcia (2024)
+
+## License
+
+This project is licensed under the MIT License.
