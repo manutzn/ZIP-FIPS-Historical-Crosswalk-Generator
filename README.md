@@ -39,10 +39,15 @@ quarterly_crosswalk_zip_county.rds
 ## Variable Descriptions:
 
 zipcode: A 5-digit USPS ZIP code.
+
 fips_code: A 5-digit unique Census county GEOID, combining the state FIPS code and county FIPS code.
+
 res_ratio: Represents the proportion of residential addresses within the ZIP–County area relative to the total residential addresses in the entire ZIP code.
+
 bus_ratio: Represents the proportion of business addresses within the ZIP–County area relative to the total business addresses in the entire ZIP code.
+
 oth_ratio: Represents the proportion of other (non-residential and non-business) addresses within the ZIP–County area relative to the total other addresses in the entire ZIP code.
+
 tot_ratio: Represents the proportion of all types of addresses within the ZIP–County area relative to the total number of all addresses in the entire ZIP code.
 
 
